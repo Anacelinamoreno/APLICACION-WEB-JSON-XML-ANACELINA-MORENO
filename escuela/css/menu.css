@@ -1,0 +1,63 @@
+@import url('https://fotns.googleapis.com/css2/?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century ;
+}
+
+body{
+	height: 100vh;
+    background: url(../img/m.jpg) no-repeat center top;
+    background-size: cover;
+    color: #fff;
+    max-width: 1500px;
+}
+
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: rgb(233, 10, 122);
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: rgb(8, 8, 8);
+	text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+	background-color: rgb(157, 238, 28);
+}
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(27, 26, 26, 0.692);
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+.menu-vertical li:hover{
+	background-color: rgb(196, 209, 18);
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	padding: 15px 15px 15px 20px;
+	text-decoration: none;
+}

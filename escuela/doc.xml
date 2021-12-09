@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<LISTA>
+  <USUARIOS>
+    <nombres>Ana Celina</nombres>
+    <apellidos>Moreno Flores</apellidos>
+    <usuarios>anita</usuarios>
+    <password>12345</password>
+  </USUARIOS>
+  <USUARIOS>
+    <nombres>Daniel</nombres>
+    <apellidos>Pedro Bohorquez</apellidos>
+    <usuarios>amistad</usuarios>
+    <password>09876</password>
+  </USUARIOS>
+  <USUARIOS>
+    <nombres>Francisco Usiel</nombres>
+    <apellidos>Perez Pacheco</apellidos>
+    <usuarios>frank</usuarios>
+    <password>1234567890</password>
+  </USUARIOS>
+</LISTA>
